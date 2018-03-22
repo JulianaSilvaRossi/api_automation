@@ -1,3 +1,4 @@
+require 'httparty'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -14,6 +15,6 @@ end
 
 class Books
   include HTTParty
-  base_uri ''
-  defaault_params output:'json'
+  base_uri 'http://jsonplaceholder.typicode.com/'
+  default_params output:'json'
 end
