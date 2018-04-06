@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="3" skipped="0" failures="1" errors="0" time="1.277107" timestamp="2018-04-06T09:39:42-03:00" hostname="EVV00019">
+<properties>
+<property name="seed" value="21311"/>
+</properties>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ObterQtdeProdutos" file="./spec/Carrinho/get_spec.rb" time="0.407226"></testcase>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ListarFreteEntregaTipoHabilitada" file="./spec/Carrinho/get_spec.rb" time="0.400730"><failure message="
+expected: 0
+     got: [{&quot;Adicional&quot;=&gt;false, &quot;DataAgendamento&quot;=&gt;nil, &quot;EntregaAgendadaCDistinto&quot;=&gt;nil, &quot;EntregaPrioritariaEsg...&gt;0, &quot;PrazoEntregaFormatado&quot;=&gt;nil, &quot;RetiroEmLoja&quot;=&gt;nil, &quot;ValorFrete&quot;=&gt;0, &quot;ValorFreteFormatado&quot;=&gt;nil}]
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@result.parsed_response).to eql 0
+
+  expected: 0
+       got: [{&quot;Adicional&quot;=&gt;false, &quot;DataAgendamento&quot;=&gt;nil, &quot;EntregaAgendadaCDistinto&quot;=&gt;nil, &quot;EntregaPrioritariaEsg...&gt;0, &quot;PrazoEntregaFormatado&quot;=&gt;nil, &quot;RetiroEmLoja&quot;=&gt;nil, &quot;ValorFrete&quot;=&gt;0, &quot;ValorFreteFormatado&quot;=&gt;nil}]
+
+  (compared using eql?)
+./spec/Carrinho/get_spec.rb:26:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ObterQuantidadeSkusNoCarrinho" file="./spec/Carrinho/get_spec.rb" time="0.469151"></testcase>
+</testsuite>

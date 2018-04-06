@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="3" skipped="0" failures="0" errors="0" time="1.257218" timestamp="2018-04-06T09:37:08-03:00" hostname="EVV00019">
+<properties>
+<property name="seed" value="30153"/>
+</properties>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ObterQtdeProdutos" file="./spec/Carrinho/get_spec.rb" time="0.469447"></testcase>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ListarFreteEntregaTipoHabilitada" file="./spec/Carrinho/get_spec.rb" time="0.385196"></testcase>
+<testcase classname="spec.Carrinho.get_spec" name="status code 200 ObterQuantidadeSkusNoCarrinho" file="./spec/Carrinho/get_spec.rb" time="0.385924"></testcase>
+</testsuite>
